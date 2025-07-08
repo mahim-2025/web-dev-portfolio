@@ -1,0 +1,83 @@
+
+
+.plus-jakarta-sans-normal {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font: bold;
+    color: white;
+    padding: 15px 30px;
+    
+    border-radius: 5px;
+    font size: 20px;
+    border: none;
+}
+
+header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;    
+
+}
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* shared style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+
+nav li {
+   list-style: none;
+   margin-right: 50px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li a{
+  text-decoration: none;
+
+/* banner styles */
+
+}
+.bannergreetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: bold;
+}
+.banner-paragraph{
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-picture{
+    width: 580px;
+    height: 550px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.btn-group{
+    display: flex;
+    gap: 20px;
+}
