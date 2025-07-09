@@ -145,3 +145,19 @@ main section{
     margin-top: 130px;
     margin-bottom: 130px;
 }
+
+/* resume styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+
+}
+.experience-description .experience-subtitle{
+    color: rgba(117, 117, 117, 1);
+}
+.experience-subtitle{
+    margin-bottom: 20px;
+}
+.resume-download-container{
+    margin-top: 50px;
+}
