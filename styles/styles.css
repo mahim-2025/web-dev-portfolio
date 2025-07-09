@@ -161,3 +161,25 @@ main section{
 .resume-download-container{
     margin-top: 50px;
 }
+
+/* footer sktyles */
+
+footer{
+    display: flex;
+    gap: 100px;
+
+}
+footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
+footer input[textarea]{
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    display: block;
+}
